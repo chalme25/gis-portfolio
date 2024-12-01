@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Radio Canada Big", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+  background-color: rgb(255, 233, 245);
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+.container {
+  max-width: 100rem;
+  padding: 3.2rem 3.2rem;
+  margin: 0 auto;
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6rem;
+}
+
+.introduction-section {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.parkdale-section,
+.perth-section {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr 30rem;
+  row-gap: 4rem;
+  column-gap: 4rem;
+}
+
+.toronto-restaurant-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+section h2 {
+  font-size: 4.2rem;
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.description-text,
+.restaurants-description-text {
+  font-size: 2.4rem;
+  line-height: 1.1;
+}
+
+.divider {
+  border-bottom: 1px solid #333; /* Adjust color and thickness as needed */
+
+  padding-bottom: 6rem; /* Spacing between content and divider */
+}
+
+.img-washrooms {
+  width: 65rem;
+  height: 50rem;
+}
+
+.img-ports {
+  height: 58rem;
+  width: 45rem;
+}
+
+.img-restaurants {
+  height: 45rem;
+  width: 70rem;
+}
+
+.toronto-restaurant-section {
+  padding-bottom: 6rem;
+}
